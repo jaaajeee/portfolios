@@ -38,12 +38,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
  
-.icon-twitter:before { content: '\f099'; } /* '' */
-.icon-facebook:before { content: '\f09a'; } /* '' */
-.icon-gplus:before { content: '\f0d5'; } /* '' */
-.icon-linkedin:before { content: '\f0e1'; } /* '' */
-.icon-linkedin:before { content: '\f0e1'; } /* '' */
-.icon-up:before { content: '\f176'; } /* '' */
+.icon-twitter:before { content: '\f099'; } 
+.icon-facebook:before { content: '\f09a'; } 
+.icon-gplus:before { content: '\f0d5'; } 
+.icon-linkedin:before { content: '\f0e1'; } 
+.icon-linkedin:before { content: '\f0e1'; } 
+.icon-up:before { content: '\f176'; } 
 
 /* CUSTOM RESETS
 ================================================== */
@@ -73,7 +73,7 @@ h4 {
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
-    border-radius: 0;
+    border-radius: 0.5rem;
     transition: box-shadow 0.25s ease-in-out;
     -moz-transition: box-shadow 0.25s ease-in-out;
     -webkit-transition: box-shadow 0.25s ease-in-out;
@@ -183,6 +183,7 @@ html, body {
     color: #212121;
     text-transform: uppercase;
     border-bottom: 2px solid transparent;
+
     transition: border-color 0.25s ease-in-out;
     -moz-transition: border-color 0.25s ease-in-out;
     -webkit-transition: border-color 0.25s ease-in-out;
@@ -213,7 +214,7 @@ html, body {
 /* HERO
 ================================================== */
 .hero { 
-    background: url(../img/hero.jpg) no-repeat center / cover; 
+    background: url(../img/herobg.jpeg) no-repeat center / cover; 
     height: 100%;
     width: 100%;
     min-height: 700px;
@@ -251,13 +252,15 @@ html, body {
 
 .job-title {
     font-size: 22px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     line-height: 1;
+    text-align: start;
 } 
 
 .hero img {
     height: 600px;
 }
+
 
 /* SITEMAIN
 ================================================== */
@@ -289,13 +292,15 @@ html, body {
 
 /* Section: Skills */
 .section-skills {
-    padding-bottom: 120px;
+    padding-bottom: 100px;
+}
+
+.section-skills i {
+    color: #303030;
 }
 
 .skill + .skill {
     margin-top: 50px;
-    width: 100px;
-    height: 100px;
 }
 
 
@@ -511,21 +516,11 @@ html, body {
     margin-top: 40px;
 }
 
-/* FOOTER
-================================================== */
-.site-footer {
-    position: fixed;
-    bottom: 0;
-    padding: 30px 0;
-    width: 100%;
-    background-color: #212121;
-    z-index: -1;
-}
-
+/* Icon style */
 .icon {
-    line-height: 40px;
+    line-height: 50px;
     padding: 9px 11px;
-    color: #fff;
+    color: rgb(220, 220, 220);
     border: 1px solid #fff;
     border-radius: 50%;
 }
@@ -539,8 +534,26 @@ html, body {
 }
 
 .icon:hover {
-    background-color: #fff;
+    background-color: rgb(229, 229, 229);
 }
+
+a.twitter-bg:hover {color: #55acee;}
+a.facebook-bg:hover{color: #3b5998;}
+a.github-bg:hover{color: #007bb5;} 
+a.linkedin-bg:hover {color: #dd4b39;}
+a.icon-up-bg:hover {color: #212121;}
+
+/* FOOTER
+================================================== */
+.site-footer {
+    position: fixed;
+    bottom: 0;
+    padding: 30px 0;
+    width: 100%;
+    background-color: #212121;
+    z-index: -1;
+}
+
 
 .site-footer a {
     transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
@@ -550,15 +563,10 @@ html, body {
     -ms-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 }
 
-a.twitter-bg:hover {color: #55acee;}
-a.facebook-bg:hover{color: #3b5998;}
-a.gplus-bg:hover{color: #007bb5;} 
-a.linkedin-bg:hover {color: #dd4b39;}
-a.icon-up-bg:hover {color: #212121;}
 
 .copyright {
     margin-bottom: 0;
     line-height: 40px;
     color: #fff;
-    text-align: center;
+    text-align: start;
 }
