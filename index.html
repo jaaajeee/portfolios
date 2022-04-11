@@ -17,6 +17,8 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <!-- scss -->
+    <link href="/assets/css/btn.scss">
 
     <!-- font awesome icon -->
     <script src="https://kit.fontawesome.com/8037dc7675.js" crossorigin="anonymous"></script>
@@ -29,6 +31,7 @@
     <!-- Stylesheets
     ================================================== -->
     <!-- Bootstrap core CSS -->
+   
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
@@ -78,7 +81,6 @@
                     <h1>Wichuda Kruejanta</h1>
                     <div class="page-scroll">
                         <p class="job-title">Hello! Welcome to my portfolio.</p>
-                        <p class="job-title">Call me "Jajee"</p>
                         <a href="#contact" class="btn btn-fill ">contact me</a>
                         <div class="clearfix visible-xxs"></div>
                         <a href="#portfolio" class="btn btn-border">Explore more</a>
@@ -114,59 +116,41 @@
                     <h3>My Skills & Tools</h3>
                     <img src="/assets/img/lines.svg" class="img-lines" alt="lines">
                 </div>
-
-                <div class="row">
-                    <div class="col-md-4">
+                <div class="row" class="">
+                    <div class="col-md-2">
                         <div class="skill">
-                            <i class="fa-brands fa-html5"></i>
+                            <span>
+                            <i class="fa-brands fa-html5 fa-3x fa-beat-fade"></i>
+                            </span>
                         </div><!-- /.skill -->
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-2">
                         <div class="skill">
-                            <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-brands fa-css3-alt fa-3x fa-beat-fade"></i>
                         </div><!-- /.skill -->
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-2">
                         <div class="skill">
-                            <i class="fa-brands fa-js-square"></i>
+                            <i class="fa-brands fa-js-square fa-3x fa-beat-fade"></i>
                         </div><!-- /.skill -->
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-2">
                         <div class="skill">
-                            <i class="fa-brands fa-react"></i>
-                        </div><!-- /.skill -->
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="skill">
-                            <i class="fa-brands fa-git"></i>
+                            <i class="fa-brands fa-react fa-3x fa-beat-fade"></i>
                         </div><!-- /.skill -->
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-md-2">
                         <div class="skill">
-                            <i class="fa-brands fa-node"></i>
+                            <i class="fa-brands fa-git fa-3x fa-beat-fade"></i>
                         </div><!-- /.skill -->
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-md-2">
                         <div class="skill">
-                            
+                            <i class="fa-brands fa-node fa-3x fa-beat-fade"></i>
                         </div><!-- /.skill -->
                     </div>
-
-                    <div class="col-md-4">
-                        <div class="skill">
-                            
-                        </div><!-- /.skill -->
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="skill">
-                            
-                        </div><!-- /.skill -->
-                    </div>
-
                 </div>
             </div>
         </section><!-- /.secton-skills -->
@@ -181,7 +165,7 @@
 
                     <div class="col-sm-4">
                         <div class="service">
-                            <img src="/assets/img/Work-Contact.png" width="64px" alt="Contract-staff">
+                            <img src="/assets/img/Work-Contact.png" width="32px" alt="Contract-staff">
                             <h4>Contract Official Staff</h4>
                             <!-- <h6>Department of Provincial Administration</h6> -->
                             <p>Supported planning and coordination of the Mae Tha district, Lampang province to Ministry of Interior policy.</p>
@@ -190,7 +174,7 @@
 
                     <div class="col-sm-4">
                         <div class="service">
-                            <img src="/assets/img/Work-Geostaff.png" width="64px" alt="Geo-training">
+                            <img src="/assets/img/Work-Geostaff.png" width="32px" alt="Geo-training">
                             <h4>Staff Training</h4>
                             <!-- <h6>The Geo-Informatics and Space Technology Development Agency</h6> -->
                             <p>Collaborated and rectified satellite maps, by using QGIS, a geographic information system application that supports viewing, editing, and analysis of geospatial data.</p>
@@ -199,7 +183,7 @@
 
                     <div class="col-sm-4">
                         <div class="service">
-                            <img src="/assets/img/Work-staff.jpeg" width="64px" alt="Publish-design">
+                            <img src="/assets/img/Work-staff.jpeg" width="32px" alt="Publish-design">
                             <h4>Publish designer freelance</h4>
                             <p>Created a Publish design a books, posters, my customer is a lecturer and college.</p>
                         </div><!-- /.service -->
@@ -217,7 +201,7 @@
                 <div class="row">
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img src="/assets/img/project-jammming.png" class="img-res" alt="">
+                            <img src="/assets/img/project-jammming.png" class="img-res" alt="jamming-pro">
                             <div class="portfolio-item-info">
                                 <h4>Jammming</h4>
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem1"><span class="glyphicon glyphicon-eye-open"></span></a>
@@ -227,21 +211,21 @@
                     </div>
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img src="/assets//img/Project-Final.png" class="img-res" alt="">
+                            <img src="/assets//img/Project-Final.png" class="img-res" alt="Project-Final">
                             <div class="portfolio-item-info">
                                 <h4>DJ.MPP</h4>
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
+                                <a href="https://github.com/jaaajeee/finalproject.git"><span class="glyphicon glyphicon-link"></span></a>
                             </div><!-- /.portfolio-item-info -->
                         </div><!-- /.portfolio-item -->
                     </div>
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80" class="img-res" alt="">
+                            <img src="/assets/img/Colmar-project.jpeg" class="img-res" alt="Colmar-project">
                             <div class="portfolio-item-info">
-                                <h4>Project Name</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
+                                <h4>Colmar Academy</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem3"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="https://jaaajeee.github.io/colmar-academy/capstone_colmar_assets/"><span class="glyphicon glyphicon-link"></span></a>
                             </div><!-- /.portfolio-item-info -->
                         </div><!-- /.portfolio-item -->
                     </div>
@@ -253,12 +237,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4 col-xs-12">
-                        <p class="counter start" data-to="9" data-speed="1000">0</p>
+                        <p class="counter start" data-to="6" data-speed="1000">0</p>
                         <h4>Tool & Skills</h4>
                     </div>
                     <div class="col-sm-4 col-xs-12">
-                        <p class="counter start" data-to="52" data-speed="2000">0</p>       
-                        <h4>Days with Generation Thailand</h4>      
+                        <p class="counter start" data-to="54" data-speed="2000">0</p>       
+                        <h4>Days with Generation Thailand</h4>
                     </div>
                     <div class="col-sm-4 col-xs-12">
                         <p id="infinity" class="counter" data-from="0" data-to="1" data-speed="1000">0</p>
@@ -272,25 +256,27 @@
             <div class="container">
                 <h3>Contact</h3>
                 <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                    <div class="row">
-                        <div class="col-sm-6">
+                    <div class="row" class="contact-icon"> 
+                        <div class="col-sm">
                             <a class="icon linkedin-bg" href="https://www.linkedin.com/in/wichuda-kruejanta-0785a6236/" target="_blank"><i class="icon-linkedin"></i></a>
-                            <a class="icon facebook-bg" href="https://www.facebook.com/jeemtr" target="_blank"><i class="icon-facebook"></i></a>
-                            <a class="icon github-bg" href="" target="_blank"><i class="fa-brands fa-github" class="icon-github"></i> </a>
+                            
+                            <a class="icon github-bg" href="https://github.com/jaaajeee" target="_blank"><i class="fa-brands fa-github" class="icon-github"></i> </a>
+                            
+                            <a  class="icon mail-bg" href="mailto: wichuda.kru@gmail.com" target="_blank"><span class="glyphicon glyphicon-send"></span></a>
+                            <h5> wichuda@gmail.com</h5>
+                            <h5> (66)+623451604</h5>
                         </div>
                     </div>
-                    <a href="mailto: wichuda.kru@gmail.com" class="btn btn-border" type="">Contact Me <span class="glyphicon glyphicon-send"></span></a>
             </div>
-        </section><!-- /.section-form -->
+        </section><!-- /.section-contact -->
 
     </main><!-- /#main -->
     <footer id="colophon" class="site-footer">
         <div class="container">
             <div class="row">
-                <div class="col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3"><p class="copyright">2022. All Rights Reserved</p></div>
                 <div class="col-sm-4 col-xs-3">
                     <div class="text-right page-scroll">
-                        <a class="icon icon-up-bg" href="#hero"><i class="icon-up"></i></a>
+                        <a class="icon-up" class="icon-up-" href="#hero">Back To Top </a>
                     </div>
                 </div>
             </div>
@@ -339,14 +325,14 @@
         <div class="modal-content">
           <div class="modal-header">
             <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="" alt="">
+            <img class="img-res" src="/assets/img/Colmar-project.jpeg" target="_bank" alt="Colmar-project">
           </div>
           <div class="modal-body">
-            <h4 class="modal-title">Project title</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt.</p>
+            <h4 class="modal-title">Colmar Academy</h4>
+            <p>My first responsive webpage to created with HTML CSS and Bootstrap.</p>
           </div>
           <div class="modal-footer">
-            <a href="" class="btn btn-fill">Visit Page</a>
+            <a href="https://jaaajeee.github.io/colmar-academy/capstone_colmar_assets/" target="_bank" class="btn btn-fill">Visit Page</a>
           </div>
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->

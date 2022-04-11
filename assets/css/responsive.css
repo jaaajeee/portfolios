@@ -91,9 +91,6 @@
 		margin-top: 20px;
 	}
 
-	.skill h4 {
-		font-size: 22px;
-	}
 
 	/* Section: Services */
 	.section-services{
@@ -147,11 +144,6 @@
 	    padding: 0 20px;
 	} 
 
-	/* Input fields */
-	.form-control {
-	 	margin-top: 25px;
-	}
-
 	/* Margin and Paddings Resets */
 	.mt-x-0 {
 	    margin-top: 0;
@@ -164,7 +156,7 @@
 	}
 
 	.site-logo img {
-		height: 22px;
+		height: 32px;
 	}
 
 	/* Navigation */
@@ -325,7 +317,7 @@
 	.section-skills,
 	.section-portfolio,
 	.section-form {
-	    padding-bottom: 60px;
+	    padding-bottom: 50px;
 	}
 
 	.site-section h2,
@@ -342,6 +334,7 @@
 	}
 
 	/* Section: Skills */
+
 
 
 	/* Section: Services */

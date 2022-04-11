@@ -38,12 +38,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
  
-.icon-twitter:before { content: '\f099'; } 
-.icon-facebook:before { content: '\f09a'; } 
-.icon-gplus:before { content: '\f0d5'; } 
-.icon-linkedin:before { content: '\f0e1'; } 
-.icon-linkedin:before { content: '\f0e1'; } 
-.icon-up:before { content: '\f176'; } 
+.icon-linkedin:before { content: '\f0e1'; }  
+.icon-up:before { content: '\f176'; }
+
 
 /* CUSTOM RESETS
 ================================================== */
@@ -261,7 +258,6 @@ html, body {
     height: 600px;
 }
 
-
 /* SITEMAIN
 ================================================== */
 .site-main {
@@ -293,11 +289,15 @@ html, body {
 /* Section: Skills */
 .section-skills {
     padding-bottom: 100px;
+    justify-content: center;
 }
 
 .section-skills i {
-    color: #303030;
+    color: #2f2f2f;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
 }
+
 
 .skill + .skill {
     margin-top: 50px;
@@ -312,7 +312,7 @@ html, body {
 
 .section-services:before {
     content: '';
-    background: url(../img/services-bg.jpg) no-repeat fixed center / cover;
+    background: url(../img/bg-section-hero.jpg) no-repeat fixed center / cover;
     width: 100%;
     height: 400px; 
     position: absolute;
@@ -478,7 +478,7 @@ html, body {
 
 /* Section: Counters */
 .section-counters {
-    background: url(../img/counters-bg.jpg) no-repeat fixed center / cover;
+    background: url(../img/counter-section-bg.jpg) no-repeat fixed center / cover;
     width: 100%;
     padding: 100px 0;
     position: relative;
@@ -510,38 +510,40 @@ html, body {
 /* Section: Form*/
 .section-form {
     padding-bottom: 120px;
+    justify-content: center;
 }
 
-.section-form .btn {
+.contact-icon {
+    justify-content: center;
+}
+
+.section-contact .btn {
     margin-top: 40px;
 }
 
 /* Icon style */
+
 .icon {
     line-height: 50px;
     padding: 9px 11px;
-    color: rgb(220, 220, 220);
-    border: 1px solid #fff;
+    color: rgb(60, 59, 59);
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 50%;
 }
 
 .icon + .icon {
-    margin-left: 5px;
-}
-
-.icon i:before {
-    margin:0;
+    margin-left: 24px;
 }
 
 .icon:hover {
     background-color: rgb(229, 229, 229);
 }
 
-a.twitter-bg:hover {color: #55acee;}
-a.facebook-bg:hover{color: #3b5998;}
-a.github-bg:hover{color: #007bb5;} 
-a.linkedin-bg:hover {color: #dd4b39;}
-a.icon-up-bg:hover {color: #212121;}
+
+a.github-bg:hover{color: #010101;} 
+a.mail-bg:hover{color: #a12b1b;}
+a.linkedin-bg:hover {color: #3b5998 ;}
+a.icon-up-bg:hover {color: #a0a0a0;}
 
 /* FOOTER
 ================================================== */
@@ -550,12 +552,13 @@ a.icon-up-bg:hover {color: #212121;}
     bottom: 0;
     padding: 30px 0;
     width: 100%;
-    background-color: #212121;
+    background-color: #121212;
     z-index: -1;
 }
 
 
 .site-footer a {
+    color: rgb(245, 245, 245);
     transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
     -moz-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
     -webkit-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
@@ -564,9 +567,3 @@ a.icon-up-bg:hover {color: #212121;}
 }
 
 
-.copyright {
-    margin-bottom: 0;
-    line-height: 40px;
-    color: #fff;
-    text-align: start;
-}

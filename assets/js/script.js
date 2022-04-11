@@ -1,7 +1,5 @@
 
 $(function() {
-
-
     $('.navbar-toggle').click(function() {
         $(this).toggleClass('act');
             if($(this).hasClass('act')) {
@@ -28,7 +26,7 @@ $(function() {
     });
 
     
-    $(document).bind('scroll', function(ev) {
+    $(document).bind('scroll', function(e) {
         var scrollOffset = $(document).scrollTop();
         var containerOffset = $section.offset().top - window.innerHeight;
         if (scrollOffset > containerOffset) {
