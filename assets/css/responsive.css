@@ -86,9 +86,20 @@
 	}
 
 	/* Section: Skills */
-	.section-skills .col-md-4 + .col-md-4,
-	.skill + .skill {
-		margin-top: 20px;
+	.skills-item {
+		/* margin-bottom: 30px; */
+	}
+	.section-skills .row{
+		display: flex;
+		justify-content: center;
+		justify-content: space-between;
+	}
+
+	.section-skills .row  .col-md-4 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: 200px;
 	}
 
 
@@ -334,9 +345,16 @@
 	}
 
 	/* Section: Skills */
+	.section-skills .row{
+		display: flex;
+		justify-content: space-around;
+	}
 
-	
+	.section-skills .row  .col-md-4 {
 
+	}
+
+	  
 	/* Section: Services */
 	.section-services {
 		padding-top: 180px;

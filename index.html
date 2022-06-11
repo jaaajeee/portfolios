@@ -18,6 +18,7 @@
     <!-- font awesome icon -->
     <script src="https://kit.fontawesome.com/8037dc7675.js" crossorigin="anonymous"></script>
 
+
     <!-- Favicon
     ================================================== -->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icon.png">
@@ -34,6 +35,7 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://portfolios-jajee.vercel.app//css_root/flaticon.css">
 
 </head>
 <body>
@@ -48,7 +50,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     
-                    <a href="#hero" class="site-logo"><img src="/assets/img/icon.png" alt="logo">
+                    <a id="logo-nav" href="#hero" class="site-logo"><img src="/assets/img/icon.png" alt="logo">
                     </a>
 
                 </div><!-- /.navbar-header -->
@@ -56,7 +58,6 @@
                 <div class="main-menu" id="portfolio-perfect-collapse">
 
                     <ul class="nav navbar-nav navbar-right">
-
                         <li class="page-scroll"><a href="#hero">Home</a></li>
                         <li class="page-scroll"><a href="#about">About</a></li>
                         <li class="page-scroll"><a href="#service">Experience</a></li>
@@ -99,13 +100,11 @@
                     <div class="col-md-6 col-md-offset-3">
                         <h2>About</h2>
                         <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                        <p>I am a creative designer looking for a new role as a software
-                            engineer. I am enthusiastic to learn by joining a full-time bootcamp
+                        <p class="">I am looking for a new role as a software 
+                            Developer. Enthusiastic to learn by joining a full-time bootcamp
                             as a Junior Software Developer program at Generation Thailand to
-                            make the career switch. I am proficient in design and basic coding
-                            skills, as well as an ability to communicate and coordinate with
-                            others.</p>
-                        <a href="https://drive.google.com/file/d/1Cf9rbVryhurCA33pLWa6VxyEUsPTRBcJ/view?usp=sharing" class="btn btn-fill" rel="noopener">See My CV</a>
+                            make the career switch.</p>
+                        <a href="https://drive.google.com/file/d/1aHYq3-UY5-X8MgK8Ih5iAKvNVM5Up7CV/view?usp=sharing" class="btn btn-fill" rel="noopener">See My CV</a>
                     </div>
                 </div>
             </div>
@@ -117,40 +116,103 @@
                     <h3>My Skills & Tools</h3>
                     <img src="/assets/img/lines.svg" class="img-lines" alt="lines">
                 </div>
-                <div class="row" class="">
-                    <div class="col-md-2">
+                <div class="row">
+                    <div class="col-md-3">
                         <div class="skill">
-                            <span>
-                            <i class="fa-brands fa-html5 fa-3x fa-beat-fade"></i>
+                            <span class="icon-skill" data-text="html">
+                            <i class="fa-brands fa-html5 fa-3x"></i>
                             </span>
                         </div><!-- /.skill -->
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-3">
                         <div class="skill">
-                            <i class="fa-brands fa-css3-alt fa-3x fa-beat-fade"></i>
+                            <span class="icon-skill" data-text="css">
+                                <i class="fa-brands fa-css3-alt fa-3x"></i>
+                            </span>
                         </div><!-- /.skill -->
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-3">
                         <div class="skill">
-                            <i class="fa-brands fa-js-square fa-3x fa-beat-fade"></i>
+                            <span class="icon-skill" data-text="JavaScript">
+                            <i class="fa-brands fa-js-square fa-3x"></i>
+                            </span>
                         </div><!-- /.skill -->
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-3">
                         <div class="skill">
-                            <i class="fa-brands fa-react fa-3x fa-beat-fade"></i>
+                            <span class="icon-skill" data-text="React">
+                            <i class="fa-brands fa-react fa-3x "></i>
+                            </span>
+                        </div><!-- /.skill -->
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="skill">
+                            <span class="icon-skill" data-text="Git">
+                            <i class="fa-brands fa-git fa-3x "></i>
+                            </span>
                         </div><!-- /.skill -->
                     </div>
 
-                    <div class="col-md-2">
+                    <div class="col-md-3">
                         <div class="skill">
-                            <i class="fa-brands fa-git fa-3x fa-beat-fade"></i>
+                            <span class="icon-skill" data-text="Node">
+                            <i class="fa-brands fa-node fa-3x"></i>
+                            </span>
                         </div><!-- /.skill -->
                     </div>
 
-                    <div class="col-md-2">
+                    <div class="col-md-3">
                         <div class="skill">
-                            <i class="fa-brands fa-node fa-3x fa-beat-fade"></i>
+                            <span class="icon-skill" data-text="Bootstrap">
+                            <img src="./assets/img/bootstrap.png" width="42px">
+                            </span>
                         </div><!-- /.skill -->
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="skill">
+                            <span class="icon-skill" data-text="Illustrator">
+                            <img src="./assets/img/adobe-illustrator.png" width="42px">
+                            </span>
+                        </div><!-- /.skill -->
+                    </div>
+                    </div>
+
+                    <div class="row">
+                    <div class="col-md-3">
+                        <div class="skill">
+                            <span class="icon-skill" data-text="Photoshop">
+                            <img src="./assets/img/photoshop.png" width="42px">
+                            </span>
+                        </div><!-- /.skill -->
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="skill">
+                            <span class="icon-skill" data-text="Figma">
+                            <img src="./assets/img/figma.png" width="42px">
+                            </span>
+                        </div><!-- /.skill -->
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="skill">
+                            <span class="icon-skill" data-text="MongoDB">
+                            <img src="./assets/img/DB.png" width="42px">
+                            </span>
+                        </div><!-- /.skill -->
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="skill">
+                            <span class="icon-skill" data-text="SQL">
+                            <img src="./assets/img/sql.png" width="48px">
+                            </span>
+                        </div><!-- /.skill -->
+                    </div>
                     </div>
                 </div>
             </div>
@@ -186,7 +248,8 @@
                         <div class="service">
                             <img src="/assets/img/Work-staff.jpeg" width="32px" alt="Publish-design">
                             <h4>Publish designer freelance</h4>
-                            <p>Created a Publish design a books, posters, my customer is a lecturer and college.</p>
+                            <p>Created a publish design a books, posters, my customer is a lecturer at university.</p>
+                            <a href="https://drive.google.com/drive/folders/1c3rejKmfnoI_OW61AYghZbYy8gfNivMS?usp=sharing" target="_blank" rel="noopener noreferrer" >More</a>
                         </div><!-- /.service -->
                     </div>
                 </div>
@@ -268,7 +331,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4 col-xs-12">
-                        <p class="counter start" data-to="6" data-speed="1000">0</p>
+                        <p class="counter start" data-to="12" data-speed="1000">0</p>
                         <h4>Tool & Skills</h4>
                     </div>
                     <div class="col-sm-4 col-xs-12">

@@ -10,7 +10,7 @@ $(function() {
             }
     });
 
-    //jQuery for page scrolling feature - requires jQuery Easing plugin
+//     //jQuery for page scrolling feature - requires jQuery Easing plugin
     $(document).on('click', '.page-scroll a', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
@@ -68,7 +68,7 @@ $(function() {
         $this.countTo(options);
     }
 
-    // Navigation overlay
+    // // Navigation overlay
     var s = skrollr.init({
             forceHeight: false,
             smoothScrolling: false,
